@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Dae Gal Chung Blog"
 date:   2018-06-16 12:28:13 +0900
 categories: jekyll update
 ---
