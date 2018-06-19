@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-<<<<<<< HEAD
 # theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: "ko"
 title: "DGC"
-description: "let's develop"
+description: "Let's develop"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://daegalchung.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
