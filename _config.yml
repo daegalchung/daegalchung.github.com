@@ -18,7 +18,7 @@ remote_theme: mmistakes/so-simple-theme
 locale: "ko"
 title: "DGC"
 description: "Let's develop"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "/"
 url: "https://daegalchung.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
