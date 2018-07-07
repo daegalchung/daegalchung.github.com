@@ -6,7 +6,7 @@ categories: Main
 tags: 모임일지
 ---
 
-### 모임일지 7월 7일
+# 모임일지 7월 7일
 
 
 -------
@@ -16,7 +16,7 @@ tags: 모임일지
 
 -------
 
-## 목표 
+# 목표 
     1. user service 설계 (공통)
     2. user service 개발 (가을, 대호)
     3. web crawling 학습 및 개발 (충현)
