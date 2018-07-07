@@ -2,7 +2,7 @@
 layout: post
 title:  "User Service API 서버-1"
 date:   2018-07-07 14:00:00 +000
-categories: Contents
+categories: API Server
 tags: user service, api server
 ---
 
