@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "React.js 개발환경 구성"
+date:   2018-07-07 15:42:00 +0900
+categories: React.js
+tags: React.js javascript node.js
+---
+
+*본 내용은 [React.js강좌](https://www.youtube.com/watch?v=x3rhCJWGFc4&index=8&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) 를 학습하며 작성한 것입니다.*
+
+
+## React 작업환경 구성하기
+
+**node.js 프로젝트 실행 명령어**
+> npm init
+
+**react 설치**
+>npm install --save react react-dom
+
+**개발 의존 모듈 설치**
+>npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
+
+>npm install --save-dev react-hot-loader webpack webpack-dev-server
+
+**--save 명령어**
+```package.json``` 파일에 설정을 자동으로 추가해주는 옵션
+
+
+
+### **webpack**
+- javascript 코드 모듈화 도구.
+- grunt, gulp 를 대체할 수 있으며, 함께 사용할 수도 있음.
+- 설정(webpack.config.js) 에서 output 에 지정한 파일을 html파일 내에서 가져와 쓸 수 있음
+
+#### *import*, *export*
+- ES6 문법
+
+```javascript
+//ES6
+import React from 'react';
+export default App;
+
+//before
+var React = require('react');
+module.export = App;
+```
+
+
+### **실행 스크립트 설정**
+
+```package.json``` 파일에 ```scripts``` 설정
+
+```json
+  "scripts": {
+    "dev-server": "webpack-dev-server"
+  }
+```
+
+project 내 아무 경로에서나
+>npm run dev-server
+
+를 실행시키면 설정한 서버/포트에 어플리케이션이 뜬다.
+
+
+**error**
+webpack.config.js 에서 속성 중 loaders 가 webpack version 2에서는 rules 로 바뀌었다고 함.
+또한 loader: 'babel', 에서 loader: 'babel-loader', 로 항상 '-loader'를 붙여주어야함.
+
+
